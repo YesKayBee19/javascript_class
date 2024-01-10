@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class cel1{
+            constructor(a,b){
+                this.a=a;
+                this.b=b;
+            }
+            add(){
+                document.write(this.a+this.b+"<br>");
+            }
+        }
+        class cel2 extends cel1{
+            constructor(a,b){
+                super(a,b);
+        }
+        sub(){
+            document.write(this.a-this.b);
+        }
+    }
+    let obj= new cel2(8,4);
+    obj.add();
+    obj.sub();
+    </script>
+</body>
+</html>

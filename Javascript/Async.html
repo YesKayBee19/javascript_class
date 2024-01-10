@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="sai">Sai Krishna </h2>
+    <script>
+        async function myFunc(){
+            let a = new Promise(function(resolve){
+                setTimeout(function(){resolve("My Name is SaiKrishna");},5000);
+            })
+            document.getElementById("sai").innerHTML= await a;
+        }
+        myFunc();
+    </script>
+</body>
+</html>

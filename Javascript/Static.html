@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="hel"></p>
+    <script>
+        class hello{
+            static say(){
+                return "Hello last class"
+            }
+        }
+        var obj=new hello();
+        document.getElementById("hel").innerHTML = hello.say()  ;
+    </script>
+</body>
+</html>

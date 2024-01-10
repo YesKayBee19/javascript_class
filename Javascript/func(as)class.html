@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1 id="sai"></h1>
+   <script>
+    function Student(first, last, age, eye){
+        this.first=first;
+        this.last=last;
+        this.age = age;
+        this.eyeColor = eye;
+    }
+
+    const stu= new Student("Sai","Krishna",24,"Black");
+    document.getElementById('sai').innerHTML ="My First Name is "+stu.first+"<br>"+ "My Last Name is " +stu.last+"<br>"+"And My Age is "+stu.age;
+   </script> 
+</body>
+</html>

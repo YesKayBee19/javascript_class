@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+username: <input type="text" name="t2"><p id="uname"></p>
+password: <input type="password" name="t1" >
+<button onclick="Pass()">Try it</button>
+<p id="pword"></p>
+<script>
+    "use strict"
+function Pass() {
+    let a=document.getElementsByName("t1").value;
+  let b=document.getElementsByName("t2").value;
+  if(a=="def")
+  document.getElementById("pword").innerHTML="password correct";
+else
+document.getElementById("pword").innerHTML="password not correct";
+if(b!="saikrishna")
+document.getElementById("uname").innerHTML="username available";
+else
+document.getElementById("uname").innerHTML="username is already taken";
+}
+</script>
+
+</body>
+</html>

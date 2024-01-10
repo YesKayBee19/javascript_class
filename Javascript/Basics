@@ -1,0 +1,68 @@
+/*
+Datatypes -Declaration of values with respect to memory allocation
+Types- 
+1- Number
+2- Float
+3- String
+4- Boolean
+5- Null
+6- Undefined
+7- Object
+8- Array
+*/
+
+/*
+Operators- Operators are used to perform Operations
+1- Arithmetic Operators -> (+) (-) (/) (*) (%) (**)
+2- Realtional Operators -> (>) (<) (>=) (<=) (!=)
+3- Logical Operators -> (&&) (||) (!)
+4- Assignment Operators -> (=)
+5- Comparison Operators -> (==)Only compares the values (===)Compares the data types also
+6- Bitwise Operators -> (<<) (>>)
+*/
+
+/*
+Memory Orientation- How to store data in storage and what will be the orientation style
+*/
+
+ A block of code that can be reused is called Function
+
+ var i,j;
+        for(i=1;i<=3;i++){
+            for(j=1;j<=3;j++){
+                if(i==2&&j==2){
+                    document.write(" ");
+                }
+                else if(i==2&&j==1){
+                    document.write(" ");
+                }
+                else{
+                    document.write("A");
+                }
+            }
+            document.write("<br>")
+        }
+
+
+
+       var i,j;
+       for(i = 1; i <= 5 ; i++){
+        for(j=1; j<=5-i+1; j++){
+            document.write(j);
+        }
+        document.write("<br>");
+    }
+
+     // var i,j;
+    //    for(i = 5; i >=1; i--){
+    //     for(j=1; j<=i; j++){
+    //         document.write(j);
+    //     }
+    //     document.write("<br>");
+    // }
+
+
+
+    //Class- It is a collection of methods and class variables which is under one name and every element can be called with an Object.//
+    //Object - Objects are the instance of a class that are used to call the methods and variables//
+    //Constructor is a function used to initialize a variable//
